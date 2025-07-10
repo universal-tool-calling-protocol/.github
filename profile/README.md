@@ -1,7 +1,7 @@
 # Universal Tool Calling Protocol (UTCP)
 
 <p align="center">
-  <img src="assets/banner.png" alt="UTCP Logo" />
+  <img src="../assets/banner.png" alt="UTCP Logo" />
 </p>
 
 <p align="center">
