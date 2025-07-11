@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>A protocol that lets AI agents call any tool, over any channel—directly and without wrappers</strong>
+  <strong>A protocol that lets AI agents call any tool, over any channel—directly and without wrappers (unlike the MCP)</strong>
 </p>
 
 
-The **Universal Tool Calling Protocol (UTCP)** is an open standard that describes *how* to call existing tools rather than *proxying* those calls through a new server. After discovery, the agent speaks directly to the tool’s native endpoint (HTTP, gRPC, WebSocket, CLI, …), eliminating the “wrapper tax,” reducing latency, and letting you keep your existing auth, billing and security in place.
+The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an alternative to the MCP, that describes *how* to call existing tools rather than *proxying* those calls through a new server. After discovery, the agent speaks directly to the tool’s native endpoint (HTTP, gRPC, WebSocket, CLI, …), eliminating the “wrapper tax,” reducing latency, and letting you keep your existing auth, billing and security in place.
 
 ---
 
