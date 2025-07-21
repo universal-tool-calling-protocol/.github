@@ -59,7 +59,17 @@ If humans can interact with an API, AI should be able to do the same with no cha
 * Scalable: UTCP must be able to handle a large number of tools and calls.
 * Simple: UTCP must be simple to implement and use.
 
-<p align="center">
-  <!-- TODO: Replace with animated demo once recorded -->
-  <img src="../assets/mcp-vs-utcp.gif" alt="UTCP vs MCP Gif" />
+<!-- README.md -->
+<details>
+  <summary><strong>UTCP vs MCP (GIF)</strong> – click to expand</summary>
+
+<p align="left">
+  <img
+    src="../assets/mcp-vs-utcp.gif"
+    alt="UTCP vs MCP Demo"
+    width="480"          
+  />
 </p>
+
+  <!-- You can keep adding Markdown here: more text, lists, code blocks, etc. -->
+</details>
