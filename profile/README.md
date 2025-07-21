@@ -61,5 +61,5 @@ If humans can interact with an API, AI should be able to do the same with no cha
 
 <p align="center">
   <!-- TODO: Replace with animated demo once recorded -->
-  <img src="../assets/utcp-vs-mcp.gif" alt="UTCP vs MCP Gif" />
+  <img src="../assets/mcp-vs-utcp.gif" alt="UTCP vs MCP Gif" />
 </p>
