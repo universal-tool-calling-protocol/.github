@@ -14,9 +14,9 @@ The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an altern
 
 ## Getting Started
 
-* 📚 **Read the [Documentation](https://utcp.io)** for specs, examples and best practices
-* 📜 **Read the [RFC](https://github.com/universal-tool-calling-protocol/utcp-specification/blob/main/RFC.md)** for the formal proposal,
-* 🤖 **Play around with the [UTCP-agent](https://github.com/universal-tool-calling-protocol/utcp-agent) to prototype how the protocol works
+* 📚 **Read the [Documentation](https://utcp.io)** and [RFC](https://github.com/universal-tool-calling-protocol/utcp-specification/blob/main/RFC.md)** for specs, examples and best practices
+* 🤖 **Try the [UTCP Agent](https://github.com/universal-tool-calling-protocol/utcp-agent)** to prototype the protocol
+* 🔌 **MCP users:** Run the **UTCP–MCP Bridge** to connect to +230 tools with only one MCP server → [`utcp-mcp`](https://github.com/universal-tool-calling-protocol/utcp-mcp) <!-- Update repo slug if different -->
 * 💻 **Start building with our SDKs:**
   * [Python SDK](https://github.com/universal-tool-calling-protocol/python-utcp)
   * [TypeScript SDK](https://github.com/universal-tool-calling-protocol/typescript-utcp)
@@ -26,12 +26,13 @@ The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an altern
 
 ## Project Structure (share a ⭐!)
 
-| Repository                                                                                    | Description                         | Stars                                                                                                                                                                                             |
-| --------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`utcp-specification`](https://github.com/universal-tool-calling-protocol/utcp-specification) | Formal spec, RFC and reference docs | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-specification?style=social)](https://github.com/universal-tool-calling-protocol/utcp-specification/) |
-| [`python-utcp`](https://github.com/universal-tool-calling-protocol/python-utcp)               | Python implementation               | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/python-utcp?style=social)](https://github.com/universal-tool-calling-protocol/python-utcp/)               |
-| [`typescript-utcp`](https://github.com/universal-tool-calling-protocol/typescript-utcp)       | TypeScript implementation           | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/typescript-utcp?style=social)](https://github.com/universal-tool-calling-protocol/typescript-utcp/)       |
-| [`go-utcp`](https://github.com/universal-tool-calling-protocol/go-utcp)               | Go implementation                   | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/go-utcp?style=social)](https://github.com/universal-tool-calling-protocol/go-utcp/)               |
+| Repository                                                                                             | Description                                                | Stars                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`utcp-specification`](https://github.com/universal-tool-calling-protocol/utcp-specification)          | Formal spec, RFC and reference docs                        | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-specification?style=social)](https://github.com/universal-tool-calling-protocol/utcp-specification/)          |
+| [`python-utcp`](https://github.com/universal-tool-calling-protocol/python-utcp)                        | Python implementation                                      | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/python-utcp?style=social)](https://github.com/universal-tool-calling-protocol/python-utcp/)                        |
+| [`typescript-utcp`](https://github.com/universal-tool-calling-protocol/typescript-utcp)                | TypeScript implementation                                  | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/typescript-utcp?style=social)](https://github.com/universal-tool-calling-protocol/typescript-utcp/)                |
+| [`go-utcp`](https://github.com/universal-tool-calling-protocol/go-utcp)                                | Go implementation                                          | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/go-utcp?style=social)](https://github.com/universal-tool-calling-protocol/go-utcp/)                                |
+| [`utcp-mcp`](https://github.com/universal-tool-calling-protocol/utcp-mcp)                | MCP compatibility layer (run MCP servers/tools via UTCP)   | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-mcp?style=social)](https://github.com/universal-tool-calling-protocol/utcp-mcp/)                |
 
 ---
 
