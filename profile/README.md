@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>A protocol that lets AI agents call any tool, over any channel—directly and without wrappers (unlike the MCP)</strong>
+  <strong>A protocol that lets AI agents call any native endpoint, over any channel - directly and without wrappers</strong>
 </p>
 
 The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an alternative to the MCP, that describes *how* to call existing tools rather than *proxying* those calls through a new server. After discovery, the agent speaks directly to the tool’s native endpoint (HTTP, gRPC, WebSocket, CLI, …), eliminating the “wrapper tax,” reducing latency, and letting you keep your existing auth, billing and security in place.
@@ -14,13 +14,10 @@ The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an altern
 
 ## Getting Started
 
-* 📚 **Read the [Documentation](https://utcp.io)** and [RFC](https://github.com/universal-tool-calling-protocol/utcp-specification/blob/main/RFC.md)** for specs, examples and best practices
+* 📚 **Read the [Documentation](https://utcp.io)** and **[RFC](https://github.com/universal-tool-calling-protocol/utcp-specification/blob/main/RFC.md)** for specs, examples and best practices
 * 🤖 **Try the [UTCP Agent](https://github.com/universal-tool-calling-protocol/utcp-agent)** to prototype the protocol
+  
 * 🔌 **MCP users:** Run the **UTCP–MCP Bridge** to connect to +230 tools with only one MCP server → [`utcp-mcp`](https://github.com/universal-tool-calling-protocol/utcp-mcp) <!-- Update repo slug if different -->
-* 💻 **Start building with our SDKs:**
-  * [Python SDK](https://github.com/universal-tool-calling-protocol/python-utcp)
-  * [TypeScript SDK](https://github.com/universal-tool-calling-protocol/typescript-utcp)
-  * [Go SDK](https://github.com/universal-tool-calling-protocol/go-utcp)
 
 ---
 
@@ -29,10 +26,10 @@ The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an altern
 | Repository                                                                                             | Description                                                | Stars                                                                                                                                                                                             |
 | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`utcp-specification`](https://github.com/universal-tool-calling-protocol/utcp-specification)          | Formal spec, RFC and reference docs                        | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-specification?style=social)](https://github.com/universal-tool-calling-protocol/utcp-specification/)          |
-| [`python-utcp`](https://github.com/universal-tool-calling-protocol/python-utcp)                        | Python implementation                                      | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/python-utcp?style=social)](https://github.com/universal-tool-calling-protocol/python-utcp/)                        |
-| [`typescript-utcp`](https://github.com/universal-tool-calling-protocol/typescript-utcp)                | TypeScript implementation                                  | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/typescript-utcp?style=social)](https://github.com/universal-tool-calling-protocol/typescript-utcp/)                |
-| [`go-utcp`](https://github.com/universal-tool-calling-protocol/go-utcp)                                | Go implementation                                          | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/go-utcp?style=social)](https://github.com/universal-tool-calling-protocol/go-utcp/)                                |
-| [`utcp-mcp`](https://github.com/universal-tool-calling-protocol/utcp-mcp)                | MCP compatibility layer (run MCP servers/tools via UTCP)   | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-mcp?style=social)](https://github.com/universal-tool-calling-protocol/utcp-mcp/)                |
+| [`utcp-mcp`](https://github.com/universal-tool-calling-protocol/utcp-mcp)                | MCP server that lets you connect to any native endpoint, powered by UTCP   | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/utcp-mcp?style=social)](https://github.com/universal-tool-calling-protocol/utcp-mcp/)                |
+| [`python-utcp`](https://github.com/universal-tool-calling-protocol/python-utcp)                        | Python SDK                                      | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/python-utcp?style=social)](https://github.com/universal-tool-calling-protocol/python-utcp/)                        |
+| [`typescript-utcp`](https://github.com/universal-tool-calling-protocol/typescript-utcp)                | TypeScript SDK                                  | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/typescript-utcp?style=social)](https://github.com/universal-tool-calling-protocol/typescript-utcp/)                |
+| [`go-utcp`](https://github.com/universal-tool-calling-protocol/go-utcp)                                | Go SDK                                          | [![Stars](https://img.shields.io/github/stars/universal-tool-calling-protocol/go-utcp?style=social)](https://github.com/universal-tool-calling-protocol/go-utcp/)                                |
 
 ---
 
@@ -44,7 +41,7 @@ We welcome issues, pull requests and design discussion. **If you’d like to add
 
 ## About
 
-UTCP is an open‑source project released under the **MPL‑2.0** license and maintained by a growing community of AI‑tooling enthusiasts. If your organization relies on direct, low‑latency access to existing APIs—or if you simply dislike writing wrappers—we’d love to have you involved!
+UTCP is an open‑source project released under the **MPL‑2.0** license and maintained by a growing community of AI‑tooling enthusiasts. If your organization relies on direct, low‑latency access to existing API, or if you simply dislike writing wrappers, we’d love to have you involved!
 
 ---
 
