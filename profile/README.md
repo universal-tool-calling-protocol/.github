@@ -35,7 +35,11 @@ The **Universal Tool Calling Protocol (UTCP)** is an open standard, as an altern
 
 ## Contributing
 
-We welcome issues, pull requests and design discussion. **If you’d like to add support for another language, tool or framework, open a discussion first so we can align on the design!**
+Contributors are our the most precious part about UTCP. UTCP is first and foremost a grass-root, community-driven - that's why we thank every single contributor, be it coders, designers, influencers or more.
+
+We made a [Hall of Fame](http://localhost:3000/hall-of-fame) to highlight everyone that has helped us - please take a moment to check them - who knows, you might help them find a job! 
+
+**If you’d like to add support for another language, tool or framework, check our [Contributing page](https://www.utcp.io/about/contributing)!**
 
 ---
 
